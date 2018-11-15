@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/emanuelesausosa/aboutMe-Professional/issues"
   },
-  "homepage": "https://github.com/emanuelesausosa/aboutMe-Professional#readme"
+  "homepage": "https://github.com/emanuelesausosa/aboutMe-Professional#readme",
+  "dependencies": {
+    "next": "^7.0.2",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-jss": "^8.6.1"
+  }
 }
