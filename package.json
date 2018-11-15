@@ -4,7 +4,10 @@
   "description": "This is a repo about my cv (resume, portfolio, education), build on Nodjs/React/Express/PostgreSql",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "next build",
+    "start": "next start",
+    "dev": "next",
+    "lint": "eslint pages"
   },
   "repository": {
     "type": "git",
@@ -23,5 +26,13 @@
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-jss": "^8.6.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.5",
+    "eslint": "^5.0.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.10.0"
   }
 }
